@@ -20,13 +20,13 @@ body {
     background: white;
     width: 800px;
     border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 25px rgb(183, 0, 255);
     overflow: hidden;
     display: flex;
 }
 
 .sidebar {
-    background: #1d1d1d;
+    background: #0004ff;
     color: white;
     width: 35%;
     padding: 20px;
