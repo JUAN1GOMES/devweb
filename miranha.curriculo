@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículo - Peter Parker</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(135deg, #c31432, #240b36);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        background: white;
+        width: 800px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        overflow: hidden;
+        display: flex;
+    }
+
+    .sidebar {
+        background: #1d1d1d;
+        color: white;
+        width: 35%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .sidebar img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 4px solid #e62429;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+
+    .sidebar h2 {
+        margin-bottom: 5px;
+    }
+
+    .sidebar p {
+        font-size: 14px;
+        color: #ccc;
+    }
+
+    .content {
+        padding: 30px;
+        width: 65%;
+    }
+
+    h1 {
+        color: #e62429;
+        margin-top: 0;
+    }
+
+    h3 {
+        border-bottom: 2px solid #e62429;
+        padding-bottom: 5px;
+        margin-top: 25px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    .highlight {
+        color: #e62429;
+        font-weight: bold;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    
+    <div class="sidebar">
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Spiderman50.jpg" alt="Foto do Homem-Aranha">
+        <h2>Peter Parker</h2>
+        <p>📍 Nova York</p>
+        <p>📧 peter.parker@dailybugle.com</p>
+        <p>📱 (11) 99999-9999</p>
+    </div>
+
+    <div class="content">
+        <h1>Homem-Aranha</h1>
+        <p><span class="highlight">Identidade Secreta:</span> Fotógrafo e Super-Herói</p>
+
+        <h3>Objetivo</h3>
+        <p>Proteger a cidade de Nova York e combater o crime utilizando habilidades especiais adquiridas após acidente científico.</p>
+
+        <h3>Experiência</h3>
+        <ul>
+            <li><strong>Fotógrafo Freelancer</strong> – Daily Bugle</li>
+            <li>Defensor da cidade contra vilões como Duende Verde, Doutor Octopus e Venom</li>
+            <li>Integrante ocasional dos Vingadores</li>
+        </ul>
+
+        <h3>Habilidades</h3>
+        <ul>
+            <li>Sentido-Aranha (reflexos aprimorados)</li>
+            <li>Escalada em paredes</li>
+            <li>Força e agilidade sobre-humanas</li>
+            <li>Criação de dispositivos tecnológicos (lançadores de teia)</li>
+        </ul>
+
+        <h3>Formação</h3>
+        <ul>
+            <li>Ensino Médio Completo – Midtown High School</li>
+            <li>Estudante de Ciências – Empire State University</li>
+        </ul>
+
+    </div>
+
+</div>
+
+</body>
+</html>
